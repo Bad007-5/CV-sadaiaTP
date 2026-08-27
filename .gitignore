@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Ultralytics generated results
+runs/
+
+# Model weights and exported models
+*.pt
+*.onnx
+*.engine
+
+# Datasets
+vehicle_dataset/
+training_image/
+datasets/
+
+# Cache files
+*.cache
+
+# Environment variables and secrets
+.env
+.env.*
+*.key
+*.pem
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code local settings
+.vscode/
